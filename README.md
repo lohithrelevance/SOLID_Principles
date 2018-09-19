@@ -69,6 +69,16 @@ The Interface Segregation Principle (ISP) states that no client should be force 
 D --> Dependency Inversion Principle
 ------------------------------------
 
+What is the motivation?
+
+When we develop a software or an application
+
+First we create the low level modules -->  XML Parser , disc access, database Connection
+
+Second --> we implement the high level modules that rely heavily on the low level ones.
+
+Conclusion :High level modules should not depend on low level modules ,
+we have to use abstraction and an abstract layer between low and high level modules.
 
 
 
