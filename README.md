@@ -39,3 +39,18 @@ WE SHOULD KEEP AS MUCH EXISTING CODE UNCHANGED AS POSSIBLE !!!
 Software entities should be open for extension , but closed for modification
 
 We have to design every new module -> if we add a new behavior , we do not have to change the existing modules.
+
+
+
+L --> LisKov Substitution Principle
+-------------------------------------
+
+What is the motivation of Liskov principle?
+ We usually create class hierarchies during the application development
+ For eg: We extend some class creating derived classes !!!
+
+ It would be great if the new derived classes would work as well without replacing the functionality of the classes
+
+ Otherwise the new classes can produce undesired effects when they are used in the existing program modules.
+
+
