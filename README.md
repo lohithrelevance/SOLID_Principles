@@ -54,3 +54,21 @@ What is the motivation of Liskov principle?
  Otherwise the new classes can produce undesired effects when they are used in the existing program modules.
 
 
+I --> Interface Segregation Principle
+-------------------------------------
+
+What is the motivation ?
+ We can have an abstraction of the system using interfaces
+
+Sometimes --> we want to implement that interface but just for the sake of some methods defined in by that interface
+ , but we have to implement all the methods "fat interface"
+
+The Interface Segregation Principle (ISP) states that no client should be force to depend on methods it does not use !!!
+
+
+D --> Dependency Inversion Principle
+------------------------------------
+
+
+
+
